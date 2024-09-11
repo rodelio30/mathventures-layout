@@ -53,6 +53,20 @@
         /* padding: -10px 0; */
         height: 100vh;
     }
+    .cta-section-login {
+        background: url('../img/public/Login.png') no-repeat center ;
+        background-size: cover;
+        color: white;
+        /* padding: -10px 0; */
+        height: 100vh;
+    }
+    .cta-section-login-text {
+        color: white;
+        margin-top: 2rem;
+        text-transform: uppercase;
+        font-weight: bold;
+        margin-left: -4rem;
+    }
     .cta-section-about-dev-head {
         color: #03D388;
         margin-top: 2rem;
@@ -84,6 +98,25 @@
         color: #E5E5E5;
         font-weight: 300;
         text-align: left;
+    }
+    .login-design {
+        margin: 0 auto; 
+        width: 60%; 
+        background-color: transparent !important; 
+        border: 0 !important;
+        font-weight: bold;
+        margin-top: 4rem;
+    }
+    .login-design input {
+        border-radius: 25px;
+        border: 0;
+        background-color: #D9D9D9 !important;
+    }
+    .login-design .btn {
+        background-color: #000000 !important; 
+        color: white; 
+        border-radius: 10px; 
+        font-weight: bold;
     }
 
     @font-face {
@@ -159,6 +192,10 @@
         .about-image {
             height: 15rem;
             width: 15rem;
+        }
+        .about-image-dev {
+            height: 18rem;
+            width: 18rem;
         }
         .meet-name a {
             text-decoration: none;

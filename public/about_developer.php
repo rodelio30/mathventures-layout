@@ -7,18 +7,43 @@ if (!empty($_SESSION['user_id'])) {
     // header("location: public/index.php");
     // exit;
 }
-$user_name = '';
+$user_name    = '';
+$user_age     =  '';
+$user_role    =  '';
+$user_contact =  '';
+$user_gmail   =  '';
+$user_img     =  '';
 if($_GET['user'] == 'jerald') {
-  $user_name = 'Jerald Marace';
+  $user_img     =  'Jerald';
+  $user_name    =  'Jerald Marace';
+  $user_age     =  'Secret';
+  $user_role    =  'Secret';
+  $user_contact =  '09123456789';
+  $user_gmail   =  'Secret';
 }
 if($_GET['user'] == 'janelle') {
-  $user_name = 'Janelle Tubat';
+  $user_img     =  'Janelle';
+  $user_name    =  'Janelle Tubat';
+  $user_age     =  '22';
+  $user_role    =  'SCRIPT WRITER';
+  $user_contact =  '09123456789';
+  $user_gmail   =  'JANELLETUBAT6@GMAIL.COM';
 }
 if($_GET['user'] == 'mark') {
-  $user_name = 'Mark Justin Laigo';
+  $user_img     =  'Mark';
+  $user_name    =  'Mark Justin Laigo';
+  $user_age     =  'Secret';
+  $user_role    =  'Secret';
+  $user_contact =  '09123456789';
+  $user_gmail   =  'Secret';
 }
 if($_GET['user'] == 'cyril') {
-  $user_name = 'Cyril Vergara';
+  $user_img     =  'Cyril';
+  $user_name    =  'Cyril Vergara';
+  $user_age     =  'Secret';
+  $user_role    =  'Secret';
+  $user_contact =  '09123456789';
+  $user_gmail   =  'Secret';
 }
 ?>
 <!doctype html>
@@ -39,53 +64,26 @@ if($_GET['user'] == 'cyril') {
     <title>ADARNA | About</title>
   </head>
   <body>
-    <?php 
-        // $nav_active = 'about';
-        // include('nav.php');
-    ?>
-        <section class="cta-section-about-dev text-center">
-          <!-- <img src="../img/public/back.png" alt="Back Button" class="float-start m-2 ml-0">
-          <h1 class="cta-section-about-dev-head"><?=$user_name?></h1> -->
-          <div class="d-flex justify-content-center align-items-center position-relative">
-              <a href="about.php">
+      <section class="cta-section-about-dev">
+              <a href="about.php" class="mt-4 ms-3"style="float: left;">
                   <img src="../img/public/back.png" alt="Back Button" width="50">
               </a>
-              <h1 class="cta-section-about-dev-head text-center flex-grow-1"><?=$user_name?></h1>
-          </div>
+              <h1 class="cta-section-about-dev-head text-center"><?=$user_name?></h1>
           <br> <br> 
           <div class="container">
-            <div class="row justify-content-center align-items-center">
-                <div class="col-12">
-                    <div class="row mt-2 meet-name">
-                      <div class="col-md-3">
-                        <img src="../img/about/Jerald.png" alt="Jerald" class="about-image">
-                        <h3 class="mt-3">
-                          JERALD MARACE
-                        </h3>
-                      </div>
-                      <div class="col-md-3">
-                        <img src="../img/about/Janelle.png" alt="Janelle" class="about-image">
-                        <h3 class="mt-3">
-                          JANELLE TUBAT
-                        </h3>
-                      </div>
-                      <div class="col-md-3">
-                        <img src="../img/about/Mark.png" alt="Mark" class="about-image">
-                        <h3 class="mt-3">
-                          MARK JUSTIN LAIGO
-                        </h3>
-                      </div>
-                      <div class="col-md-3">
-                        <img src="../img/about/Cyril.png" alt="Cyril" class="about-image">
-                        <h3 class="mt-3">
-                          CYRIL VERGARA
-                        </h3>
-                      </div>
-                    <br>
+            <div class="row">
+                <div class="col-md-4">
+                    <img src="../img/about/<?= $user_img ?>.png" alt="Jerald" class="about-image-dev">
+                </div>
+                <div class="col-md-8 pt-4">
+                  <h1>AGE: <?= $user_age ?></h1>
+                  <h1 style="margin-left: 2rem;">ROLE: <?= $user_role ?></h1>
+                  <h1 style="margin-left: 4rem;">CONTACT: <?= $user_contact ?></h1>
+                  <h1 style="margin-left: 6rem;">GMAIL: <?= $user_gmail ?></h1>
                 </div>
             </div>
         </div>
-        </section>
+      </section>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
   </body>
