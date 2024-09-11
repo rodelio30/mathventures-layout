@@ -26,7 +26,7 @@
 </head>
 <body>
     <section class="cta-section-login">
-        <a href="about.php" class="mt-4 ms-3"style="float: left;">
+        <a href="public/index.php" class="mt-4 ms-3"style="float: left;">
             <img src="img/public/back.png" alt="Back Button" width="50">
         </a>
         <h1 class="cta-section-login-text text-center mt-4"><span style="color: #ED5189; margin-left: -5rem;">LOG IN</span> YOUR ACCOUNT</h1>

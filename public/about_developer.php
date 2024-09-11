@@ -16,10 +16,10 @@ $user_img     =  '';
 if($_GET['user'] == 'jerald') {
   $user_img     =  'Jerald';
   $user_name    =  'Jerald Marace';
-  $user_age     =  'Secret';
-  $user_role    =  'Secret';
-  $user_contact =  '09123456789';
-  $user_gmail   =  'Secret';
+  $user_age     =  '22';
+  $user_role    =  'Back-End Developer';
+  $user_contact =  '09297656763';
+  $user_gmail   =  'jeraldmarace12@gmail.com';
 }
 if($_GET['user'] == 'janelle') {
   $user_img     =  'Janelle';
@@ -32,18 +32,18 @@ if($_GET['user'] == 'janelle') {
 if($_GET['user'] == 'mark') {
   $user_img     =  'Mark';
   $user_name    =  'Mark Justin Laigo';
-  $user_age     =  'Secret';
-  $user_role    =  'Secret';
-  $user_contact =  '09123456789';
-  $user_gmail   =  'Secret';
+  $user_age     =  '21';
+  $user_role    =  'Front-End Developer';
+  $user_contact =  '09762407566';
+  $user_gmail   =  'Markjustinlaigo12@gmail.com';
 }
 if($_GET['user'] == 'cyril') {
   $user_img     =  'Cyril';
   $user_name    =  'Cyril Vergara';
-  $user_age     =  'Secret';
-  $user_role    =  'Secret';
-  $user_contact =  '09123456789';
-  $user_gmail   =  'Secret';
+  $user_age     =  '21';
+  $user_role    =  'Documentation';
+  $user_contact =  '09665311048';
+  $user_gmail   =  'cyrilvergara601@gmail.com';
 }
 ?>
 <!doctype html>
@@ -76,10 +76,10 @@ if($_GET['user'] == 'cyril') {
                     <img src="../img/about/<?= $user_img ?>.png" alt="Jerald" class="about-image-dev">
                 </div>
                 <div class="col-md-8 pt-4">
-                  <h1>AGE: <?= $user_age ?></h1>
-                  <h1 style="margin-left: 2rem;">ROLE: <?= $user_role ?></h1>
-                  <h1 style="margin-left: 4rem;">CONTACT: <?= $user_contact ?></h1>
-                  <h1 style="margin-left: 6rem;">GMAIL: <?= $user_gmail ?></h1>
+                  <h2>AGE: <?= $user_age ?></h2>
+                  <h2 style="margin-left: 2rem;">ROLE: <?= $user_role ?></h2>
+                  <h2 style="margin-left: 4rem;">CONTACT: <?= $user_contact ?></h2>
+                  <h2 style="margin-left: 6rem;">GMAIL: <?= $user_gmail ?></h2>
                 </div>
             </div>
         </div>
