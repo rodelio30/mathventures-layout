@@ -34,13 +34,18 @@
         // include('include/sidebar.php');
     ?>
    <div class="container-fluid">
-    <div class="row">
-      <?php
-        $side_nav = 'accounts';
-      include 'include/sidebar.php';
-      ?>
-    </div>
-</div>
+      <div class="row">
+        <?php
+          $side_nav = 'accounts';
+        include 'include/sidebar.php';
+        ?>
+          <!-- Main Content (Placeholder) -->
+          <div class="col-md-8">
+              <!-- Your main content goes here -->
+              <h1>Hello worlds</h1>
+          </div>
+      </div>
+  </div>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
   </body>
 </html>

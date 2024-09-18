@@ -51,7 +51,3 @@ if($side_nav==="leader"){
                 <img src="../img/user/Ellipse 6.png" alt="Bottom Logo">
             </div>
         </div>
-        <!-- Main Content (Placeholder) -->
-        <div class="col-md-9">
-            <!-- Your main content goes here -->
-        </div>
