@@ -8,7 +8,7 @@ if (empty($_SESSION['user_id'])) {
 }
 
 if ($_SESSION["login_type"] === "student") {
-    header("location: player/index.php");
+    header("location: user/index.php");
 }
 
 if ($_SESSION["login_type"] === "admin") {

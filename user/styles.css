@@ -1,0 +1,44 @@
+/* body {
+  font-family: Arial, sans-serif;
+} */
+body {
+  background-color: #3f0274; /* Purple background */
+  color: white;
+}
+.sidebar {
+  background-color: white; /* Yellow background for the sidebar */
+  height: 80vh; /* Full viewport height */
+  padding: 0;
+  margin-left: 1rem;
+  margin-bottom: 1rem;
+  border-radius: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.sidebar a {
+  color: black;
+  text-align: center;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 18px;
+  margin-bottom: 30px;
+  display: block;
+  width: 100%;
+}
+.sidebar .active {
+  background-color: #FCFF7A;
+  padding: 1rem;
+}
+.sidebar a:hover {
+  color: #4A0072;
+}
+
+.sidebar .icon {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+/* Ensure the last image is at the bottom */
+.float-bottom {
+  margin-top: auto; /* Pushes the element to the bottom */
+}

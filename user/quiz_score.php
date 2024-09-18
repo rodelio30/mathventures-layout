@@ -29,14 +29,13 @@
   </head>
   <body>
     <?php 
-        $nav_active = 'index';
         include('include/nav.php');
         // include('include/sidebar.php');
     ?>
    <div class="container-fluid">
     <div class="row">
       <?php
-        $side_nav = 'index';
+        $side_nav = 'quiz';
       include 'include/sidebar.php';
       ?>
     </div>

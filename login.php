@@ -3,7 +3,7 @@
     require 'include/dbconnect.php';
 
     if (!empty($_SESSION['login_p'])) {
-        header("Location: player/");
+        header("Location: user/");
     }
 
     if (!empty($_SESSION['login_t'])) {

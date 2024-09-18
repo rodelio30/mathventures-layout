@@ -29,7 +29,6 @@
   </head>
   <body>
     <?php 
-        $nav_active = 'index';
         include('include/nav.php');
         // include('include/sidebar.php');
     ?>
@@ -37,7 +36,7 @@
     <div class="row">
       <?php
         $side_nav = 'index';
-      include 'include/sidebar.php';
+        include 'include/sidebar.php';
       ?>
     </div>
 </div>

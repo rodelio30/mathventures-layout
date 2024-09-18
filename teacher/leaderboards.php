@@ -36,7 +36,7 @@
    <div class="container-fluid">
     <div class="row">
       <?php
-        $side_nav = 'index';
+        $side_nav = 'leader';
       include 'include/sidebar.php';
       ?>
     </div>
