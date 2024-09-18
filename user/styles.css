@@ -27,11 +27,11 @@ body {
   width: 100%;
 }
 .sidebar .active {
-  background-color: #FCFF7A;
+  background-color: #fcff7a;
   padding: 1rem;
 }
 .sidebar a:hover {
-  color: #4A0072;
+  color: #4a0072;
 }
 
 .sidebar .icon {
@@ -44,23 +44,23 @@ body {
 }
 
 /* Calendar */
-.wrapper{
+.wrapper {
   width: 100%;
-  background:  #FFFFFF;
-  color: #4A5660;
+  background: #ffffff;
+  color: #4a5660;
   border-radius: 10px;
-  box-shadow: 0 15px 40px rgba(0,0,0,0.12);
+  box-shadow: 0 15px 40px rgba(0, 0, 0, 0.12);
 }
-.wrapper header{
+.wrapper header {
   display: flex;
   align-items: center;
   padding: 15px 20px 0;
   justify-content: space-between;
 }
-header .icons{
+header .icons {
   display: flex;
 }
-header .icons span{
+header .icons span {
   height: 38px;
   width: 38px;
   margin: 0 1px;
@@ -72,52 +72,52 @@ header .icons span{
   user-select: none;
   border-radius: 50%;
 }
-.icons span:last-child{
+.icons span:last-child {
   margin-right: -10px;
 }
-header .icons span:hover{
+header .icons span:hover {
   background: #f2f2f2;
 }
 header .current-date {
   font-size: 1rem;
   font-weight: bold;
 }
-.calendar{
+.calendar {
   padding: 0 0 1px;
 }
-.calendar ul{
+.calendar ul {
   padding: 0 10px;
   display: flex;
   flex-wrap: wrap;
   list-style: none;
   text-align: center;
 }
-.calendar .days{
+.calendar .days {
   margin-bottom: 20px;
 }
-.calendar li{
-  color: #4A5660;
-  margin: 0.7rem 0;
+.calendar li {
+  color: #4a5660;
+  margin: 0.8rem 0;
   width: calc(100% / 7);
   font-size: 0.7rem;
 }
-.calendar .weeks li{
+.calendar .weeks li {
   font-weight: 500;
   cursor: default;
 }
-.calendar .days li{
+.calendar .days li {
   z-index: 1;
   cursor: pointer;
   position: relative;
   margin-top: 10px;
 }
-.days li.inactive{
+.days li.inactive {
   color: #aaa;
 }
-.days li.active{
+.days li.active {
   color: #fff;
 }
-.days li::before{
+.days li::before {
   position: absolute;
   content: "";
   left: 50%;
@@ -128,11 +128,24 @@ header .current-date {
   border-radius: 50%;
   transform: translate(-50%, -50%);
 }
-.days li.active::before{
-  background: #F04D23;
+.days li.active::before {
+  background: #f04d23;
 }
-.days li:not(.active):hover::before{
+.days li:not(.active):hover::before {
   /* background: #f2f2f2; */
   background: rgb(126, 118, 119);
 }
 /* Calendar */
+
+.card-week {
+  color: black;
+  padding: 1rem;
+  margin-top: 1rem;
+  border-radius: 10px !important;
+}
+
+.card-week-inside {
+  color: white;
+  background-color: #3f0071 !important;
+  text-align: center;
+}

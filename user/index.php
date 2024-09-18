@@ -50,32 +50,46 @@
               </div>
               <div class="col-md-4">
                 <div class="wrapper">
-                            <header>
-                                <p class="current-date"></p>
-                                <div class="icons">
-                                <span id="prev" class="material-symbols-rounded">chevron_left</span>
-                                <span id="next" class="material-symbols-rounded">chevron_right</span>
-                                </div>
-                            </header>
-                            <div class="calendar">
-                                <ul class="weeks">
-                                <li>Sun</li>
-                                <li>Mon</li>
-                                <li>Tue</li>
-                                <li>Wed</li>
-                                <li>Thu</li>
-                                <li>Fri</li>
-                                <li>Sat</li>
-                                </ul>
-                                <ul class="days"></ul>
-                            </div>
+                    <header>
+                        <p class="current-date"></p>
+                        <div class="icons">
+                        <span id="prev" class="material-symbols-rounded">chevron_left</span>
+                        <span id="next" class="material-symbols-rounded">chevron_right</span>
                         </div>
+                    </header>
+                    <div class="calendar">
+                        <ul class="weeks">
+                        <li>Sun</li>
+                        <li>Mon</li>
+                        <li>Tue</li>
+                        <li>Wed</li>
+                        <li>Thu</li>
+                        <li>Fri</li>
+                        <li>Sat</li>
+                        </ul>
+                        <ul class="days"></ul>
+                    </div>
+                  </div>
+                  <div class="card card-week">
+                    <span class="text-center">
+                      SCHEDULE
+                    </span>
+                    <div class="wrapper card-week-inside">
+                        SEPTEMBER 2024
+                    </div>
+                  </div>
               </div>
             </div>
-            <div class="row">
-              <div class="col-md-4"></div>
-              <div class="col-md-4"></div>
-                <div class="col-md-4"></div>
+            <div class="row mt-4">
+              <div class="col-md-4">
+                <img src="../img/user/chapter2.png" alt="" style="width: 90%;">
+              </div>
+              <div class="col-md-4">
+                <img src="../img/user/chapter3.png" alt="" style="width: 90%;">
+              </div>
+              <div class="col-md-4">
+                <img src="../img/user/chapter4.png" alt="" style="width: 90%;">
+              </div>
             </div>
           </div>
       </div>

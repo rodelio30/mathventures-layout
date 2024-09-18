@@ -40,7 +40,7 @@
         ?>
           <!-- Main Content (Placeholder) -->
           <div class="col-md-8">
-            <h3>Hello Worlds</h3>
+            <h1>Hello Worlds</h1>
           </div>
         </div>
     </div>
