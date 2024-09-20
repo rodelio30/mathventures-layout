@@ -149,3 +149,87 @@ header .current-date {
   background-color: #3f0071 !important;
   text-align: center;
 }
+.profile-content {
+  font-weight: bold;
+}
+.profile-content h1 {
+  font-weight: bold;
+}
+.profile-header {
+  font-size: 64px;
+}
+
+.quiz-container {
+  position: relative;
+  width: 100%;
+  max-width: 100%; /* Ensure the image fills the container */
+}
+.quiz-bg {
+  width: 100%;
+  height: auto;
+  border-radius: 20px;
+}
+/* Styling for both table header and record */
+.overlay-text {
+  position: absolute;
+  top: 3%; /* Adjust to position vertically */
+  left: 5%; /* Adjust to position horizontally */
+  color: white;
+  width: 90%;
+}
+.table-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: black;
+  font-weight: bold;
+  padding: 10px;
+  font-size: 30px;
+  -webkit-text-stroke: 1px #ffffff;
+  border-radius: 15px;
+  margin-bottom: 10px;
+}
+.quiz-record {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgba(
+    74,
+    0,
+    114,
+    0.8
+  ); /* Purple background with transparency */
+  /* color: black; */
+  padding: 10px;
+  border-radius: 15px;
+  margin-bottom: 10px;
+}
+.table-header div,
+.quiz-record div {
+  flex: 1;
+  text-align: center;
+  font-weight: bold;
+}
+.quiz-record .quiz-number {
+  font-size: 2.2rem;
+  padding: 10px 20px;
+  border-radius: 15px;
+  color: white !important;
+  -webkit-text-stroke: 1px black;
+}
+.quiz-record .topic {
+  font-size: 1.3rem;
+  color: black !important;
+  -webkit-text-stroke: 1px #ffffff;
+}
+.quiz-record .chapter {
+  font-size: 1.8rem;
+  color: black !important;
+  -webkit-text-stroke: 1px #ffffff;
+}
+.quiz-record .score,
+.quiz-record .grade {
+  font-size: 1.8rem;
+  color: black !important;
+  -webkit-text-stroke: 1px #ffffff;
+}

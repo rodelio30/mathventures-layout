@@ -40,7 +40,34 @@
         ?>
           <!-- Main Content (Placeholder) -->
           <div class="col-md-8">
-            <h3>Hello Worlds</h3>
+            <h1>Records</h1>
+            <!-- <img src="../img/user/quiz-bg.png" alt="QUIZ SCORE BG" style="width: 100%;"> -->
+             <!-- Quiz Record Container -->
+      <div class="quiz-container">
+          <!-- Background Image -->
+          <img src="../img/user/quiz-bg.png" alt="QUIZ SCORE BG" class="quiz-bg">
+
+          <!-- Overlaying Text (Header + Record) -->
+          <div class="overlay-text">
+              <!-- Table Header -->
+              <div class="table-header">
+                  <div>Quiz No.</div>
+                  <div>Topic</div>
+                  <div>Chapter</div>
+                  <div>Score</div>
+                  <div>Grade</div>
+              </div>
+
+              <!-- Quiz Record -->
+              <div class="quiz-record">
+                  <div class="quiz-number">1.</div>
+                  <div class="topic">The Forest of Basic Operators</div>
+                  <div class="chapter">Chapter 1</div>
+                  <div class="score">5/10</div>
+                  <div class="grade">B</div>
+              </div>
+          </div>
+      </div>
           </div>
       </div>
   </div>
