@@ -59,10 +59,24 @@
                 <option value="Grade 5 Ipil-Ipil">Grade 5 Ipil-Ipil</option>
               </select>
               <div class="card" style="height: 50vh;  border-radius: 25px; margin: 1rem 0;">
-                <div class="row" style="margin: 1rem; background-color: #3F0071; padding: 1rem; border-radius: 15px;">
-                  <div class="col-md-2"><h3>1.</h3></div>
-                  <div class="col-md-7"><h3>Student Name</h3></div>
-                  <div class="col-md-3"><a href="accounts-view.php" class="btn btn-accounts-view float-end">View Progress</a></div>
+                <div class="quiz-container">
+                        <!-- Table Header -->
+                        <div class="table-header">
+                            <div>Quiz No.</div>
+                            <div>Topic</div>
+                            <div>Chapter</div>
+                            <div>Score</div>
+                            <div>Grade</div>
+                        </div>
+
+                        <!-- Quiz Record -->
+                        <div class="quiz-record m-3 mt-0 mb-2">
+                            <div class="quiz-number">1.</div>
+                            <div class="topic">The Forest of Basic Operators</div>
+                            <div class="chapter">Chapter 1</div>
+                            <div class="score">5/10</div>
+                            <div class="grade">B</div>
+                        </div>
                 </div>
               </div>
           </div> <!-- End of Content -->

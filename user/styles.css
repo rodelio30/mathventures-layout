@@ -193,12 +193,7 @@ header .current-date {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: rgba(
-    74,
-    0,
-    114,
-    0.8
-  ); /* Purple background with transparency */
+  background-color: #3f0071;
   /* color: black; */
   padding: 10px;
   border-radius: 15px;
@@ -232,4 +227,11 @@ header .current-date {
   font-size: 1.8rem;
   color: black !important;
   -webkit-text-stroke: 1px #ffffff;
+}
+.leaderboards-content {
+  margin: 0 1rem 1rem;
+  border-radius: 50px;
+  background-image: url("../img/user/Rectangle.png");
+  background-size: cover;
+  background-position: center;
 }

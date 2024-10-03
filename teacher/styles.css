@@ -27,11 +27,11 @@ body {
   width: 100%;
 }
 .sidebar .active {
-  background-color: #03D388;
+  background-color: #03d388;
   padding: 1rem;
 }
 .sidebar a:hover {
-  color: #4A0072;
+  color: #4a0072;
 }
 
 .sidebar .icon {
@@ -41,4 +41,277 @@ body {
 /* Ensure the last image is at the bottom */
 .float-bottom {
   margin-top: auto; /* Pushes the element to the bottom */
+}
+/* Calendar */
+.wrapper {
+  width: 100%;
+  background: #ffffff;
+  color: #4a5660;
+  border-radius: 10px;
+  box-shadow: 0 15px 40px rgba(0, 0, 0, 0.12);
+}
+.wrapper header {
+  display: flex;
+  align-items: center;
+  padding: 15px 20px 0;
+  justify-content: space-between;
+}
+header .icons {
+  display: flex;
+}
+header .icons span {
+  height: 38px;
+  width: 38px;
+  margin: 0 1px;
+  cursor: pointer;
+  color: #878787;
+  text-align: center;
+  line-height: 38px;
+  font-size: 1.9rem;
+  user-select: none;
+  border-radius: 50%;
+}
+.icons span:last-child {
+  margin-right: -10px;
+}
+header .icons span:hover {
+  background: #f2f2f2;
+}
+header .current-date {
+  font-size: 1rem;
+  font-weight: bold;
+}
+.calendar {
+  padding: 0 0 1px;
+}
+.calendar ul {
+  padding: 0 10px;
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+  text-align: center;
+}
+.calendar .days {
+  margin-bottom: 20px;
+}
+.calendar li {
+  color: #4a5660;
+  margin: 0.8rem 0;
+  width: calc(100% / 7);
+  font-size: 0.7rem;
+}
+.calendar .weeks li {
+  font-weight: 500;
+  cursor: default;
+}
+.calendar .days li {
+  z-index: 1;
+  cursor: pointer;
+  position: relative;
+  margin-top: 10px;
+}
+.days li.inactive {
+  color: #aaa;
+}
+.days li.active {
+  color: #fff;
+}
+.days li::before {
+  position: absolute;
+  content: "";
+  left: 50%;
+  top: 50%;
+  height: 25px;
+  width: 25px;
+  z-index: -1;
+  border-radius: 50%;
+  transform: translate(-50%, -50%);
+}
+.days li.active::before {
+  background: #f04d23;
+}
+.days li:not(.active):hover::before {
+  /* background: #f2f2f2; */
+  background: rgb(126, 118, 119);
+}
+/* Calendar */
+
+.card-week {
+  color: black;
+  padding: 1rem;
+  margin-top: 1rem;
+  border-radius: 10px !important;
+}
+
+.card-week-inside {
+  color: white;
+  background-color: #3f0071 !important;
+  text-align: center;
+}
+.profile-content {
+  font-weight: bold;
+}
+.profile-content h1 {
+  font-weight: bold;
+}
+.profile-header {
+  font-size: 64px;
+}
+
+.quiz-container {
+  position: relative;
+  width: 100%;
+  max-width: 100%; /* Ensure the image fills the container */
+}
+.quiz-bg {
+  width: 100%;
+  height: auto;
+  border-radius: 20px;
+}
+/* Styling for both table header and record */
+.overlay-text {
+  position: absolute;
+  top: 3%; /* Adjust to position vertically */
+  left: 5%; /* Adjust to position horizontally */
+  color: white;
+  width: 90%;
+}
+.table-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: black;
+  font-weight: bold;
+  padding: 10px;
+  font-size: 30px;
+  -webkit-text-stroke: 1px #ffffff;
+  border-radius: 15px;
+  margin-bottom: 10px;
+}
+.quiz-record {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #3f0071;
+  /* background-color: rgba( 74, 0, 114, 0.8);  */
+  /* color: black; */
+  padding: 10px;
+  border-radius: 15px;
+  margin-bottom: 10px;
+}
+.table-header div,
+.quiz-record div {
+  flex: 1;
+  text-align: center;
+  font-weight: bold;
+}
+.quiz-record .quiz-number {
+  font-size: 2.2rem;
+  padding: 10px 20px;
+  border-radius: 15px;
+  color: white !important;
+  -webkit-text-stroke: 1px black;
+}
+.quiz-record .topic {
+  font-size: 1.3rem;
+  color: black !important;
+  -webkit-text-stroke: 1px #ffffff;
+}
+.quiz-record .chapter {
+  font-size: 1.9rem;
+  color: black !important;
+  -webkit-text-stroke: 1px #ffffff;
+}
+.quiz-record .score,
+.quiz-record .grade {
+  font-size: 1.8rem;
+  color: black !important;
+  -webkit-text-stroke: 1px #ffffff;
+}
+.leaderboards-content {
+  margin: 0 1rem 0.1rem;
+  border-radius: 50px;
+  background-color: white;
+}
+
+.btn-save {
+  color: #fff;
+  background-color: #3f0071;
+  border: 2px solid #fff;
+  padding: 0.5rem 1.5rem;
+  -webkit-text-stroke: 1px black;
+  font-weight: bold;
+  font-size: 22px;
+  margin-right: 2rem;
+}
+
+.btn-save:hover {
+  color: #fff;
+  background-color: #300355;
+  border-color: #fffbfb;
+}
+
+.leaderboards-content-inside {
+  /* margin: 0 1rem 1rem;
+  border-radius: 50px; */
+  background-image: url("../img/user/Rectangle.png");
+  background-size: cover;
+  background-position: center;
+  height: 65vh;
+  border-radius: 25px;
+  margin: 1rem 0 0;
+}
+
+.leader-head {
+  -webkit-text-stroke: 1px black;
+  font-weight: bold;
+}
+
+.btn-accounts-view {
+  color: #fff;
+  -webkit-text-stroke: 1px black;
+  background-color: #03d388;
+  font-weight: bold;
+  border-color: #03d388;
+  border-radius: 5rem;
+  font-size: 18px;
+}
+
+.btn-accounts-view:hover {
+  color: #fff;
+  background-color: #157347;
+  border-color: #146c43;
+}
+
+.btn-students {
+  color: white;
+  -webkit-text-stroke: 2px black;
+  background-color: white;
+  font-weight: bold;
+  border-color: #000000;
+  border-radius: 5rem;
+  font-size: 20px;
+  padding: 0.5rem 1rem;
+}
+
+.btn-students:hover {
+  color: #fff;
+  background-color: #03d388;
+  border-color: #03d388;
+}
+
+.btn-student-delete {
+  color: white;
+  background-color: black;
+  font-weight: bold;
+  border-color: #000000;
+  border-radius: 5rem;
+  font-size: 20px;
+  padding: 0.5rem 1.4rem;
+}
+
+.btn-students-delete:hover {
+  color: #fff;
+  background-color: #03d388;
+  border-color: #03d388;
 }
