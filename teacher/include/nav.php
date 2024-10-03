@@ -28,7 +28,7 @@ if($nav_active == "about"){
         </li>
         <li class="nav-item ps-3">
           <form class="d-flex mt-3" role="search">
-            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search" style="width: 600px !important;">
+            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search" style="width: 600px !important; border-radius: 25px;">
           </form>
         </li>
       </ul>
