@@ -1,11 +1,5 @@
 <?php
-// define('Amember', true);
-// require('../include/dbconnect.php'); // Connect to the database
-
-// if (!empty($_SESSION['user_id'])) {
-//     header("location: public/index.php");
-//     exit;
-// }
+include('p-checker.php');
 ?>
 
 <!doctype html>

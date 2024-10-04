@@ -33,18 +33,16 @@ if($nav_active == "about"){
         </li>
       </ul>
         <img src="../img/notif.png" alt="Notification Bell" width="40">
-      <ul>
-        <li class="nav-item dropdown" style="margin-right: 4rem; margin-top: 1rem;">
+        <div class="nav-item dropdown" style="margin-right: 4rem;">
             <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false" style="font-size: 32px; text-decoration: none; color: white; font-weight: bold;">
               STUDENT
             </a>
             <ul class="dropdown-menu">
-              <li><a class="dropdown-item" href="#">LOGOUT</a></li>
+              <li><a class="dropdown-item" href="../include/signout.php">LOGOUT</a></li>
               <!-- <li><a class="dropdown-item" href="#">Another action</a></li>
               <li><hr class="dropdown-divider"></li>
               <li><a class="dropdown-item" href="#">Something else here</a></li> -->
             </ul>
-          </li>
-      </ul>
+          </div>
   </div>
 </nav>

@@ -10,7 +10,7 @@ if(!defined('Amember')){
 $servername = "localhost";
 $username = "root";
 $password = "";
-$dbname = "adarna";
+$dbname = "mathventures";
 
 $conn = new mysqli($servername, $username, $password, $dbname);
 
